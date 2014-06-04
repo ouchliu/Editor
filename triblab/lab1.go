@@ -7,7 +7,7 @@ import (
 	"net/rpc"
 	"trib"
 )
-
+//
 // Creates an RPC client that connects to addr.
 func NewClient(addr string) trib.Storage {
 	return &client{addr: addr}
